@@ -44,7 +44,7 @@ Created structured directories for bioinformatics workflow:
 - Cloned GitHub repository
 - Configured Git (user.name and user.email)
 - Committed and pushed changes to remote repository
-- Installed and used th `tree` command to visualise directory structure
+- Installed and used the `tree` command to visualise directory structure
 
 ---
 
@@ -65,7 +65,6 @@ Created structured directories for bioinformatics workflow:
 ---
 
 ## Reflection
-
 This week established the foundation for working with bioinformatics pipelines. Mastery of Linux is essential before moving to text processing tools, scripting, and NGS workflows.
 
-Next: Advanced command-line tools (grep, awk, sed, piping, permissions, bash scripting).
+**Next:** Advanced command-line tools (grep, awk, sed, piping, permissions, bash scripting).
