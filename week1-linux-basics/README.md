@@ -23,7 +23,7 @@ This week focused on building foundational Linux command-line skills essential f
 
 The directory structure follows a reproducible bioinformatics workflow separating raw data, processed data, results, and scripts.
 
-The structured directories created as shown below:
+The structured directories created are shown below:
 
 ```
 week1-linux-basics
@@ -58,9 +58,7 @@ week1-linux-basics
 
 ## Automation Script
 
-The commands practiced during week 1 were consolidated into a reusable Bash script:
-
-`scripts/week1_practice.sh`
+The commands practiced during Week 1 were consolidated into a reusable Bash script (`scripts/week1_practice.sh`). This ensures the workflow can be recreated consitently across environments.
 
 This script:
 - Creates the directory structure
