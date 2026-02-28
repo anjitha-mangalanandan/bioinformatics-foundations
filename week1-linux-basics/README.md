@@ -15,22 +15,30 @@ This week focused on building foundational Linux command-line skills essential f
 ### 2. File and Directory Management
 - `mkdir` - Create directories
 - `touch` - Create files
-- `copy` - Copy files
+- `cp` - Copy files
 - `mv` - Move/Rename files
 - `rm` - Remove files
 
 ### 3. Project Organisation
-Created structured directories for bioinformatics workflow:
+
+The directory structure follows a reproducible bioinformatics workflow separating raw data, processed data, results, and scripts.
+
+The structured directories created as shown below:
 
 ```
-.
+week1-linux-basics
 ├── README.md
 ├── data
+│   └── sample1_raw.fastq
 ├── notes
 ├── processed_data
+│   └── sample2.fastq
 ├── raw_data
+│   ├── sample1.fastq
+│   └── sample2.fastq
 ├── results
 └── scripts
+    └── week1_practice.sh
 ```
 
 ---
@@ -46,6 +54,25 @@ Created structured directories for bioinformatics workflow:
 - Committed and pushed changes to remote repository
 - Installed and used the `tree` command to visualise directory structure
 
+---
+
+## Automation Script
+
+The commands practiced during week 1 were consolidated into a reusable Bash script:
+
+`scripts/week1_practice.sh`
+
+This script:
+- Creates the directory structure
+- Generates mock FASTQ files
+- Copies and renames files
+- Cleans temporary files
+
+Run it using:
+
+```bash
+./scripts/week1_practice.sh 
+```
 ---
 
 ## Key Learnings
