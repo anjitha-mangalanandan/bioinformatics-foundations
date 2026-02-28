@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Week 1 Linux Basics Practice Scripts
+# Author: Anjitha
+# Description: Creates reproducible bioinformatics directory structure
+
 set -e
 
 # Create directories
