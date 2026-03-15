@@ -12,5 +12,6 @@ Each week focuses on a specific skill required for building and understanding re
 
 ## Current Progress
 
-Week 1 – Linux basics for bioinformatics workflows
-Week 2 – FASTQ processing and Linux text analysis
+Week 1 – Linux basics for bioinformatics workflows  
+Week 2 – FASTQ processing and Linux text analysis  
+
