@@ -34,8 +34,11 @@ week2-linux-text-processing
 │   ├── sample_fastq_report.txt
 │   └── real_fastq_report.txt
 │
+├── notes
+│
 └── README.md
 ```
+
 ## Dataset
 
 Two datasets are used in this project:
@@ -67,6 +70,7 @@ The QC pipeline performs the following steps:
 
 Pipeline execution is handled by a wrapper script.
 
+```
 FASTQ file
     │
     ▼
@@ -77,7 +81,7 @@ fastq_summary.sh
     │
     ▼
 QC report
-
+```
 ## Running the Pipeline
 
 Run the QC pipeline from the project root directory:
@@ -89,6 +93,7 @@ results/<filename>_report.txt
 
 Example QC report:
 
+```
 --------------------------------
 FASTQ FILE SUMMARY
 --------------------------------
@@ -99,6 +104,7 @@ GC Content:               51.48%
 ATG Motif Occurrences:    736
 Average Read Length:      100
 --------------------------------
+```
 
 ## Tools Used
 
@@ -116,7 +122,3 @@ Average Read Length:      100
 - Bioinformatics pipeline design
 - Reproducible workflow development
 
-## Author
-
-Anjitha Mangalanandan
-Bioinformatics Learner
