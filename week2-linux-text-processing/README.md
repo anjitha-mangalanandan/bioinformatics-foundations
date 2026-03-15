@@ -97,6 +97,8 @@ From the project root directory, run the wrapper script:
 
 # QC on the small real subset
 ./scripts/run_fastq_qc.sh raw_data/subset.fastq
+```
+
 ## Example Output
 
 Example QC report:
