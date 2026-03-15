@@ -79,16 +79,24 @@ run_fastq_qc.sh
     ▼
 fastq_summary.sh
     │
-    ▼
+    
 QC report
 ```
-## Running the Pipeline
 
-Run the QC pipeline from the project root directory:
-./scripts/run_fastq_qc.sh raw_data/sample_reads.fastq
+## Running the FASTQ QC Pipeline
+
+This project provides a reusable FASTQ quality control (QC) pipeline that can be run on either a toy sample dataset or a small real subset. It automates summary statistics generation, including total reads, sequence count, GC content, motif occurrences, and average read length.
+
+### **Usage**
+
+From the project root directory, run the wrapper script:
+
+```bash
+# QC on the toy FASTQ dataset
+./scipts/run_fastq_qc.sh raw_data/sample_reads.fastq
+
+# QC on the small real subset
 ./scripts/run_fastq_qc.sh raw_data/subset.fastq
-results/<filename>_report.txt
-
 ## Example Output
 
 Example QC report:
