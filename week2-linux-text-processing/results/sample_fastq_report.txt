@@ -1,0 +1,11 @@
+--------------------------------
+FASTQ FILE SUMMARY
+--------------------------------
+File: raw_data/sample_reads.fastq
+
+Total Reads:              3
+Sequence Count:           3
+GC Content:               46.03%
+ATG Motif Occurrences:    2
+Average Read Length:      21.00
+---------------------------------

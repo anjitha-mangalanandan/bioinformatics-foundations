@@ -1,0 +1,11 @@
+--------------------------------
+FASTQ FILE SUMMARY
+--------------------------------
+File: raw_data/subset.fastq
+
+Total Reads:              1000
+Sequence Count:           1000
+GC Content:               51.48%
+ATG Motif Occurrences:    736
+Average Read Length:      100.00
+---------------------------------
